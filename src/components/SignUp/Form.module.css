@@ -1,0 +1,203 @@
+.form {
+  width: 552px;
+  height: 832px;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin-bottom: 145px;
+  padding: 30px 61px 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.form-header {
+  height: 48px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  color: #212628;
+}
+
+.premium {
+  font-size: 25px;
+}
+
+.price {
+  font-size: 23px;
+}
+
+.price span {
+  font-size: 16px;
+}
+
+.description {
+  font-size: 18px;
+  color: #212628;
+  font-weight: 600;
+  opacity: 0.6;
+  margin-bottom: 43px;
+}
+
+.form-content input {
+  margin-bottom: 27px;
+  width: 424px;
+  height: 54px;
+  left: 500px;
+  top: 352px;
+  padding-left: 25px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  color: rgba(33, 38, 40, 0.8);
+}
+
+.form-content input::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #212628;
+  opacity: 0.5;
+}
+
+.form-content input:focus {
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.form-content .cvv-input,
+.form-content .zip-input {
+  width: 120px;
+}
+
+.form-content .date-input,
+.form-content .country-input {
+  width: 282px;
+}
+
+.accept-terms {
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.terms-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(33, 38, 40, 0.5);
+  margin-left: 24px;
+}
+
+.terms-text span {
+  border-bottom: 1px solid #e1306c;
+  color: #e1306c;
+}
+
+.submit {
+  margin-top: 29px;
+  width: 370px;
+  height: 64px;
+  background: linear-gradient(
+    270deg,
+    #c23584 0%,
+    #e2306c 24.48%,
+    #f77736 83.85%,
+    #fa963e 100%
+  );
+  border-radius: 32px;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.0015em;
+  color: #ffffff;
+  filter: drop-shadow(2px 4px 15px rgba(222, 49, 111, 0.4));
+}
+
+.line {
+  height: 17px;
+  width: 0px;
+  border: 1px solid #ffffff;
+  margin: 0 10px;
+}
+
+.old-price {
+  margin-left: 10px;
+  color: #f5b0c1;
+  text-decoration: line-through;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coupon {
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #e1306c;
+  line-height: 32px;
+  height: 64px;
+  width: 370px;
+  margin: 3px auto 0;
+}
+
+.coupon p {
+  cursor: pointer;
+}
+
+.card-number {
+  position: relative;
+}
+
+.form-content input {
+  padding-right: 50px;
+}
+
+.card-number input {
+  padding-right: 60px;
+}
+
+.card-img {
+  position: absolute;
+  top: 17px;
+  left: 370px;
+}
+
+.checkbox {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 22px;
+  height: 22px;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.checkbox[type="checkbox"] {
+  background-color: #fff;
+  border-radius: 6px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 22px;
+}
+
+.checkbox[type="checkbox"]:checked {
+  background: url("../../assets/Checked.svg") center no-repeat;
+}

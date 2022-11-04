@@ -1,0 +1,24 @@
+.btn {
+  margin: 29px auto 0;
+  width: 370px;
+  height: 64px;
+  background: linear-gradient(
+    270deg,
+    #c23584 0%,
+    #e2306c 24.48%,
+    #f77736 83.85%,
+    #fa963e 100%
+  );
+  border-radius: 32px;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.0015em;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  filter: drop-shadow(2px 4px 15px rgba(222, 49, 111, 0.4));
+}

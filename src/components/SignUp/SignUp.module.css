@@ -1,0 +1,18 @@
+.signup {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background: #f9f8f7;
+}
+
+.signup-content {
+  width: calc(100% - 496px);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin: 41px 0 32px;
+}

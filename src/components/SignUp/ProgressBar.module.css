@@ -1,0 +1,57 @@
+.progress-bar {
+  font-family: "Inter", sans-serif;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bullets {
+  width: 189px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 48px 0 3px 0;
+}
+
+.bullet-one,
+.bullet-two {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.bullet-one {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
+    rgba(239, 92, 75, 0.8);
+}
+
+.bullet-two {
+  background: #c0c0c0;
+}
+
+.line {
+  width: 150px;
+  height: 0px;
+  border: 1px solid #c0c0c0;
+}
+
+.progress-text {
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+  height: 29px;
+  font-weight: 400;
+  align-items: center;
+}
+
+.signup {
+  font-size: 16px;
+  line-height: 32px;
+  color: #212628;
+}
+
+.targeting {
+  color: #c0c0c0;
+}

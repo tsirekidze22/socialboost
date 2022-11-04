@@ -1,0 +1,44 @@
+.client-review {
+  margin: 0 auto;
+}
+
+.photo-border-wrap {
+  width: 62px;
+  height: 62px;
+  position: relative;
+  background: linear-gradient(to bottom, #de0046, #fb9224);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 14px auto;
+}
+
+.client-photo {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background-position: center;
+  z-index: 100;
+}
+
+.client-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #313131;
+  margin-bottom: 13px;
+}
+
+.client-review-text {
+  width: 363px;
+  height: 91px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.0015em;
+  color: #212628;
+  margin: 0 auto;
+}

@@ -1,0 +1,62 @@
+.sidebar {
+  width: 496px;
+  min-height: 100vh;
+  background: #f9f8f7;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+  font-family: "Inter";
+  z-index: 5;
+}
+
+.sidebar-content {
+  width: 100%;
+  min-height: 80%;
+  margin: 0 auto;
+}
+
+.sidebar-title {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 48px;
+  text-align: center;
+  color: #212628;
+  margin-bottom: 15px;
+}
+
+.rating {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 9px;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.rating-info {
+  margin: 0 auto;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 12px;
+  margin-bottom: 44px;
+}
+
+.partners {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  margin: 40px auto 0 auto;
+}
+
+.photo-border-wrap {
+  width: 62px;
+  height: 62px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.15));
+}

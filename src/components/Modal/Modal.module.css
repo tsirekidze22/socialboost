@@ -1,0 +1,61 @@
+.modal-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 731px;
+  height: 589px;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter";
+}
+
+.checkmarkbg {
+  background-image: url("../../assets/CheckMarkBG.svg");
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 68px auto 47px;
+}
+
+.modal-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 70px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #212628;
+}
+
+.modal-subtitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: rgba(33, 38, 40, 0.7);
+  margin-top: 3px auto 1px;
+}
+
+.modal-desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: rgba(33, 38, 40, 0.7);
+  width: 553px;
+  height: 120px;
+}
